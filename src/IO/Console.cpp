@@ -26,6 +26,7 @@
 #include <QFileDialog>
 #include <QPrintDialog>
 #include <QTextDocument>
+#include <QRegularExpression>
 
 #include <IO/Manager.h>
 #include <IO/Console.h>
@@ -493,6 +494,11 @@ void IO::Console::append(const QString &string, const bool addTimestamp)
 
   auto data = string;
 
+  // Only use \n as line separator for rendering:
+
+  // Condense repeated/redundant \r into singular \r
+  data = data.replace(QRegularExpression("\r+"), QStringLiteral("\r"));
+
   // Omit leading \n if a trailing \r was already rendered from previous payload
   if (m_lastCharWasCR && data.startsWith('\n'))
     data.removeFirst();
@@ -500,9 +506,10 @@ void IO::Console::append(const QString &string, const bool addTimestamp)
   // Record trailing \r
   m_lastCharWasCR = data.endsWith('\r');
 
-  // Only use \n as line separator for rendering
+  // Drop \r when joined by neighbouring \n
   data = data.replace(QStringLiteral("\r\n"), QStringLiteral("\n"));
   data = data.replace(QStringLiteral("\n\r"), QStringLiteral("\n"));
+  // Any remaining solitary \r is treated as \n for legibility
   data = data.replace(QStringLiteral("\r"), QStringLiteral("\n"));
 
   // Get timestamp
