@@ -90,6 +90,7 @@ IO::Console::Console()
   , m_showTimestamp(false)
   , m_isStartingLine(true)
   , m_lastCharWasCR(false)
+  , m_lastCharWasLF(false)
 {
   // Clear buffer & reserve memory
   clear();
@@ -305,6 +306,7 @@ void IO::Console::clear()
   m_textBuffer.reserve(10 * 1000);
   m_isStartingLine = true;
   m_lastCharWasCR = false;
+  m_lastCharWasLF = false;
   Q_EMIT dataReceived();
 }
 
@@ -503,15 +505,19 @@ void IO::Console::append(const QString &string, const bool addTimestamp)
   data = data.replace(QStringLiteral("\r\n"), QStringLiteral("\n"));
   data = data.replace(QStringLiteral("\n\r"), QStringLiteral("\n"));
 
-  // Omit leading \n if a trailing \r was already rendered from previous payload
-  if (m_lastCharWasCR && data.startsWith('\n'))
+  bool alreadyOnNewLine = m_lastCharWasLF || m_lastCharWasCR;
+
+  // Omit leading line ending if previous payload makes it redundant
+  if (m_lastCharWasCR && data.startsWith('\n') ||
+      alreadyOnNewLine && data.startsWith('\r'))
     data.removeFirst();
 
-  // Record trailing \r
+  // Record trailing line ending
   m_lastCharWasCR = data.endsWith('\r');
+  m_lastCharWasLF = data.endsWith('\n');
 
   // Any remaining solitary \r is treated as \n for legibility
-  data = data.replace(QStringLiteral("\r"), QStringLiteral("\n")); 
+  data = data.replace(QStringLiteral("\r"), QStringLiteral("\n"));
 
   // Get timestamp
   QString timestamp;

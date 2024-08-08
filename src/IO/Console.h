@@ -170,6 +170,7 @@ private:
   bool m_showTimestamp;
   bool m_isStartingLine;
   bool m_lastCharWasCR;
+  bool m_lastCharWasLF;
 
   QStringList m_lines;
   QStringList m_historyItems;
