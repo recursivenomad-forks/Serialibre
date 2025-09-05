@@ -270,6 +270,8 @@ jobs:
   # Upload continuous build
   upload:
       name: '🗂 Create release and upload artifacts'
+      permissions:
+        contents: write
       needs:
         - build-mac-universal
         - build-windows-x86_64
