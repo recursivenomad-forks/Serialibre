@@ -1033,6 +1033,15 @@ void Widgets::Terminal::processText(const QChar &byte, QString &text)
     setCursorPosition(0, m_cursorPosition.y() + 1);
   }
 
+  // We move the cursor here because tabs don't render that well natively
+  else if (byte == '\t')
+  {
+    appendString(text);
+    text.clear();
+    int tabToSpaces = 8 - (m_cursorPosition.x() % 8);  // 1 tab = 8 spaces
+    setCursorPosition(m_cursorPosition.x() + tabToSpaces, m_cursorPosition.y());
+  }
+
   else if (byte == '\b' && vt100emulation())
   {
     if (m_cursorPosition.x())
@@ -1320,6 +1329,7 @@ void Widgets::Terminal::replaceData(qsizetype x, qsizetype y, QChar byte)
     currentLine = currentLine.leftJustified(x, ' ');
 
   // Ensure that byte is a printable character
+  // (Don't try putting '\t' here; it is constant-width and breaks highlighting)
   if (!byte.isPrint())
     byte = '.';
 
