@@ -3,7 +3,7 @@ name: Bug report /  漏洞报告
 about: Report a bug or crash
 title: ''
 labels: bug
-assignees: alex-spataru
+assignees: recursivenomad
 
 ---
 

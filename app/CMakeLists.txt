@@ -260,12 +260,12 @@ elseif(UNIX)
  install(TARGETS ${PROJECT_EXECUTABLE} RUNTIME DESTINATION /usr/bin)
 
  install(
-  FILES ${CMAKE_CURRENT_SOURCE_DIR}/deploy/linux/serial-studio.png
+  FILES ${CMAKE_CURRENT_SOURCE_DIR}/deploy/linux/serialibre.png
   DESTINATION /usr/share/pixmaps
  )
 
 install(
- FILES ${CMAKE_CURRENT_SOURCE_DIR}/deploy/linux/serial-studio.desktop
+ FILES ${CMAKE_CURRENT_SOURCE_DIR}/deploy/linux/serialibre.desktop
  DESTINATION /usr/share/applications
 )
 endif()

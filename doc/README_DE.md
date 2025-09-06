@@ -2,7 +2,7 @@
     <img width="192px" height="192px" src="/doc/icon.svg" align="right" />
 </a>
 
-# Serial Studio
+# Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
 [![Github commits](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
 [![GitHub contributors](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
@@ -43,7 +43,7 @@ Für GNU/Linux-Benutzer gibt es mehrere Möglichkeiten, die Anwendung zu install
 Laden Sie die AppImage-Datei herunter und stellen Sie sicher, dass sie über die korrekten Ausführungsrechte verfügt, bevor Sie sie starten:
 
 ```bash
-chmod +x SerialStudio-3.0.5-Linux-x86_64.AppImage
+chmod +x Serialibre-3.0.5-Linux-x86_64.AppImage
 ./SerialStudio-3.0.5-Linux-x86_64.AppImage
 ```
 
@@ -63,13 +63,13 @@ Sie können Serial Studio auch mit DEB- oder RPM-Paketen installieren, die sich 
 Für Debian-basierte Distributionen (z. B. Debian, Ubuntu, Linux Mint usw.):
 
 ```bash
-sudo dpkg -i SerialStudio-3.0.5-Linux-x86_64.deb
+sudo dpkg -i Serialibre-3.0.5-Linux-x86_64.deb
 ```
 
 Für RPM-basierte Distributionen (z. B. Fedora, RHEL, OpenSUSE usw.):
 
 ```bash
-sudo rpm -i SerialStudio-3.0.5-Linux-x86_64.rpm
+sudo rpm -i Serialibre-3.0.5-Linux-x86_64.rpm
 ```
 
 ## Entwicklung

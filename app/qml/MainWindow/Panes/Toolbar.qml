@@ -279,7 +279,7 @@ Rectangle {
       text: qsTr("Examples")
       Layout.alignment: Qt.AlignVCenter
       icon.source: "qrc:/rcc/icons/toolbar/examples.svg"
-      onClicked: Qt.openUrlExternally("https://github.com/Serial-Studio/Serial-Studio/tree/master/examples")
+      onClicked: Qt.openUrlExternally("https://github.com/recursivenomad-forks/Serialibre/tree/master/examples")
     }
 
     //

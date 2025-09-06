@@ -1,8 +1,8 @@
-▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▀█▀ ░█▀▀█ ▒█░░░ 　 ▒█▀▀▀█ ▀▀█▀▀ ▒█░▒█ ▒█▀▀▄ ▀█▀ ▒█▀▀▀█
-░▀▀▀▄▄ ▒█▀▀▀ ▒█▄▄▀ ▒█░ ▒█▄▄█ ▒█░░░ 　 ░▀▀▀▄▄ ░▒█░░ ▒█░▒█ ▒█░▒█ ▒█░ ▒█░░▒█
-▒█▄▄▄█ ▒█▄▄▄ ▒█░▒█ ▄█▄ ▒█░▒█ ▒█▄▄█ 　 ▒█▄▄▄█ ░▒█░░ ░▀▄▄▀ ▒█▄▄▀ ▄█▄ ▒█▄▄▄█
+　 　 ▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▀█▀ ░█▀▀█ ▒█░░░ ▀█▀ ▒█▀▀▄ ▒█▀▀█ ▒█▀▀▀
+　 　 ░▀▀▀▄▄ ▒█▀▀▀ ▒█▄▄▀ ▒█░ ▒█▄▄█ ▒█░░░ ▒█░ ▒█▀▀▄ ▒█▄▄▀ ▒█▀▀▀
+　 　 ▒█▄▄▄█ ▒█▄▄▄ ▒█░▒█ ▄█▄ ▒█░▒█ ▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ ▒█▄▄▄
 
-Welcome to Serial Studio! To get started:
+Welcome to Serialibre (based on Serial Studio)! To get started:
 1. Select a COM port and baud rate from the Devices pane on the right.
 2. If the serial connection is successful and data is correctly interpreted,
    this pane will close automatically, revealing the dashboard.
@@ -11,7 +11,7 @@ Welcome to Serial Studio! To get started:
 Use the toolbar buttons to access the features you need.
 
 If you encounter any issues, please report them here:
-→ https://github.com/Serial-Studio/Serial-Studio/issues
+→ https://github.com/recursivenomad-forks/Serialibre/issues
 
 For additional resources, including documentation and integration with your
 embedded projects, visit the wiki:

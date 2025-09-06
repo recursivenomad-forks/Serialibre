@@ -26,7 +26,7 @@ cmake_minimum_required(VERSION 3.20)
 # Define project name & find Qt packages for correct CPack calls
 #-------------------------------------------------------------------------------
 
-project(Serial-Studio LANGUAGES CXX)
+project(Serialibre LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -48,16 +48,16 @@ option(PRODUCTION_OPTIMIZATION "Enable production optimization flags" OFF)
 # Project information
 #-------------------------------------------------------------------------------
 
-set(PROJECT_DISPNAME            "Serial Studio")
-set(PROJECT_EXECUTABLE          "Serial-Studio")
-set(PROJECT_VENDOR              "Alex Spataru")
-set(PROJECT_CONTACT             "serial-studio.github.io")
+set(PROJECT_DISPNAME            "Serialibre")
+set(PROJECT_EXECUTABLE          "Serialibre")
+set(PROJECT_VENDOR              "Peter S. Hollander")
+set(PROJECT_CONTACT             "https://github.com/recursivenomad-forks/Serialibre/")
 set(PROJECT_DESCRIPTION_SUMMARY "Flexible data visualization software for embedded devices and projects")
 set(PROJECT_VERSION_MAJOR       "3")
 set(PROJECT_VERSION_MINOR       "0")
 set(PROJECT_VERSION_PATCH       "7")
 set(PROJECT_VERSION             "${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}")
-set(PROJECT_APPCAST             "https://raw.githubusercontent.com/Serial-Studio/Serial-Studio/master/updates.json")
+set(PROJECT_APPCAST             "https://raw.githubusercontent.com/recursivenomad-forks/Serialibre/master/updates.json")
 
 set(PROJECT_ROOT_DIR            ${CMAKE_CURRENT_LIST_DIR})
 set(PROJECT_DESCRIPTION_FILE    "${PROJECT_ROOT_DIR}/README.md")
@@ -79,7 +79,7 @@ add_definitions(-DPROJECT_DISPNAME="${PROJECT_DISPNAME}")
 #-------------------------------------------------------------------------------
 
 if (UNIX AND NOT APPLE)
- set(PROJECT_EXECUTABLE "serial-studio")
+ set(PROJECT_EXECUTABLE "serialibre")
  set(CMAKE_C_COMPILER_AR "/usr/bin/ar")
  set(CMAKE_CXX_COMPILER_AR "/usr/bin/ar")
  set(CMAKE_C_COMPILER_RANLIB "/usr/bin/ranlib")

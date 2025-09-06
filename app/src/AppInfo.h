@@ -33,7 +33,7 @@
 // clang-format on
 
 #if defined(Q_OS_MAC) || defined(Q_OS_WIN)
-#  define APP_EXECUTABLE QStringLiteral("Serial-Studio")
+#  define APP_EXECUTABLE QStringLiteral("Serialibre")
 #else
-#  define APP_EXECUTABLE QStringLiteral("serial-studio")
+#  define APP_EXECUTABLE QStringLiteral("serialibre")
 #endif

@@ -1,8 +1,8 @@
-▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▀█▀ ░█▀▀█ ▒█░░░ 　 ▒█▀▀▀█ ▀▀█▀▀ ▒█░▒█ ▒█▀▀▄ ▀█▀ ▒█▀▀▀█
-░▀▀▀▄▄ ▒█▀▀▀ ▒█▄▄▀ ▒█░ ▒█▄▄█ ▒█░░░ 　 ░▀▀▀▄▄ ░▒█░░ ▒█░▒█ ▒█░▒█ ▒█░ ▒█░░▒█
-▒█▄▄▄█ ▒█▄▄▄ ▒█░▒█ ▄█▄ ▒█░▒█ ▒█▄▄█ 　 ▒█▄▄▄█ ░▒█░░ ░▀▄▄▀ ▒█▄▄▀ ▄█▄ ▒█▄▄▄█
+　 　 ▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▀█▀ ░█▀▀█ ▒█░░░ ▀█▀ ▒█▀▀▄ ▒█▀▀█ ▒█▀▀▀
+　 　 ░▀▀▀▄▄ ▒█▀▀▀ ▒█▄▄▀ ▒█░ ▒█▄▄█ ▒█░░░ ▒█░ ▒█▀▀▄ ▒█▄▄▀ ▒█▀▀▀
+　 　 ▒█▄▄▄█ ▒█▄▄▄ ▒█░▒█ ▄█▄ ▒█░▒█ ▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ ▒█▄▄▄
 
-¡Bienvenido a Serial Studio! Para comenzar:
+¡Bienvenido a Serialibre (based on Serial Studio)! Para comenzar:
 1. Selecciona un puerto COM y la velocidad de baudios en el panel de dispositivos
    a la derecha.
 2. Si la conexión serial es exitosa y los datos se interpretan correctamente,
@@ -13,7 +13,7 @@ Usa los botones de la barra de herramientas para acceder a las funciones que
 necesitas.
 
 Si encuentras algún problema, por favor repórtalo aquí:
-→ https://github.com/Serial-Studio/Serial-Studio/issues
+→ https://github.com/recursivenomad-forks/Serialibre/issues
 
 Para más recursos, incluyendo documentación e integración con tus proyectos
 embebidos, visita el wiki:

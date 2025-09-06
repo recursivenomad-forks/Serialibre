@@ -1,4 +1,5 @@
 Copyright (c) 2020-2024 Alex Spataru.
+                   2025 Peter S. Hollander <recursivenomad@protonmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

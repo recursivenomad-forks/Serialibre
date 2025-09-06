@@ -1,8 +1,8 @@
-▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▀█▀ ░█▀▀█ ▒█░░░ 　 ▒█▀▀▀█ ▀▀█▀▀ ▒█░▒█ ▒█▀▀▄ ▀█▀ ▒█▀▀▀█
-░▀▀▀▄▄ ▒█▀▀▀ ▒█▄▄▀ ▒█░ ▒█▄▄█ ▒█░░░ 　 ░▀▀▀▄▄ ░▒█░░ ▒█░▒█ ▒█░▒█ ▒█░ ▒█░░▒█
-▒█▄▄▄█ ▒█▄▄▄ ▒█░▒█ ▄█▄ ▒█░▒█ ▒█▄▄█ 　 ▒█▄▄▄█ ░▒█░░ ░▀▄▄▀ ▒█▄▄▀ ▄█▄ ▒█▄▄▄█
+　 　 ▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▀█▀ ░█▀▀█ ▒█░░░ ▀█▀ ▒█▀▀▄ ▒█▀▀█ ▒█▀▀▀
+　 　 ░▀▀▀▄▄ ▒█▀▀▀ ▒█▄▄▀ ▒█░ ▒█▄▄█ ▒█░░░ ▒█░ ▒█▀▀▄ ▒█▄▄▀ ▒█▀▀▀
+　 　 ▒█▄▄▄█ ▒█▄▄▄ ▒█░▒█ ▄█▄ ▒█░▒█ ▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ ▒█▄▄▄
 
-Willkommen bei Serial Studio! So fangen Sie an:
+Willkommen bei Serialibre (based on Serial Studio)! So fangen Sie an:
 1. Wählen Sie einen COM-Port und eine Baudrate im Gerätebereich rechts aus.
 2. Wenn die serielle Verbindung erfolgreich ist und die Daten korrekt
    interpretiert werden, schließt sich dieser Bereich automatisch und das
@@ -14,7 +14,7 @@ Verwenden Sie die Schaltflächen in der Symbolleiste, um auf die gewünschten
 Funktionen zuzugreifen.
 
 Wenn Sie auf ein Problem stoßen, melden Sie es bitte hier:
-→ https://github.com/Serial-Studio/Serial-Studio/issues
+→ https://github.com/recursivenomad-forks/Serialibre/issues
 
 Für weitere Ressourcen, einschließlich Dokumentation und Integration mit Ihren
 Embedded-Projekten, besuchen Sie das Wiki:

@@ -1,4 +1,4 @@
-# Serial Studio
+# Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
 <a href="#">
     <img width="192px" height="192px" src="doc/icon.svg" align="right" />

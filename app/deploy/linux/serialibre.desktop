@@ -1,12 +1,12 @@
 [Desktop Entry]
-Name=Serial Studio
+Name=Serialibre
 Comment=Flexible data visualization software for embedded devices and projects
-Exec=serial-studio
+Exec=serialibre
 Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Electronics;Engineering;Science;
-Icon=serial-studio
-X-AppImage-Name=Serial Studio
+Icon=serialibre
+X-AppImage-Name=Serialibre
 X-AppImage-Version=3.0.7
 X-AppImage-Arch=x86_64

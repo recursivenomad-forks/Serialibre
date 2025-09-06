@@ -2,7 +2,7 @@
     <img width="192px" height="192px" src="/doc/icon.svg" align="right" />
 </a>
 
-# Serial Studio
+# Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
 [![Github commits](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
 [![GitHub contributors](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
@@ -43,7 +43,7 @@ Serial Studio — это многоплатформенный и универс�
 Скачайте файл AppImage и убедитесь, что у него есть разрешения на выполнение перед запуском:
 
 ```
-chmod +x SerialStudio-3.0.5-Linux-x86_64.AppImage
+chmod +x Serialibre-3.0.5-Linux-x86_64.AppImage
 ./SerialStudio-3.0.5-Linux-x86_64.AppImage
 ```
 
@@ -63,13 +63,13 @@ sudo apt install libfuse2
 Для дистрибутивов на основе Debian (например, Debian, Ubuntu, Linux Mint и др.):
 
 ```
-sudo dpkg -i SerialStudio-3.0.5-Linux-x86_64.deb
+sudo dpkg -i Serialibre-3.0.5-Linux-x86_64.deb
 ```
 
 Для дистрибутивов на основе RPM (например, Fedora, RHEL, OpenSUSE и др.):
 
 ```
-sudo rpm -i SerialStudio-3.0.5-Linux-x86_64.rpm
+sudo rpm -i Serialibre-3.0.5-Linux-x86_64.rpm
 ```
 
 ## Разработка

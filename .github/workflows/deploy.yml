@@ -17,12 +17,12 @@ env:
   QT_VERSION_MACOS: 6.8.1
   QT_VERSION_WINDOWS: 6.8.1
   REPOSITORY_NAME: "Serialibre"
-  EXECUTABLE: "Serial-Studio"
-  APPLICATION: "Serial Studio"
-  UNIXNAME: "serial-studio"
+  EXECUTABLE: "Serialibre"
+  APPLICATION: "Serialibre"
+  UNIXNAME: "serialibre"
   QML_DIR: "../../app/qml"
   PUBLISHER: "Peter S. Hollander"
-  DESCRIPTION: "Multi-purpose serial data visualization & processing program"
+  DESCRIPTION: "Multi-purpose serial data visualization & processing program based on Serial Studio by Alex Spataru"
   QT_MODULES: qt3d qtgraphs qtquick3d qtlocation qtdatavis3d qtserialport qtshadertools qtpositioning qtconnectivity
     
 #-------------------------------------------------------------------------------

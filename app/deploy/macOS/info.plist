@@ -5,17 +5,17 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
- <string>Serial-Studio</string>
+ <string>Serialibre</string>
 	<key>CFBundleGetInfoString</key>
  <string>Copyright © 2020-2024 Alex Spataru</string>
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.alexspataru.serial-studio</string>
+	<string>org.recursivenomad.serialibre</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Serial Studio</string>
+	<string>Serialibre</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -29,6 +29,6 @@
 	<key>NSRequiresAquaSystemAppearance</key>
 	<string>False</string>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-        <string>Serial Studio uses Bluetooth LE to find, connect and transfer data between different devices</string>
+        <string>Serialibre uses Bluetooth LE to find, connect and transfer data between different devices</string>
 </dict>
 </plist>

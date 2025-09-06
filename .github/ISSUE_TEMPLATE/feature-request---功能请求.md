@@ -3,7 +3,7 @@ name: Feature request / 功能请求
 about: Suggest an idea for this project
 title: ''
 labels: enhancement
-assignees: alex-spataru
+assignees: recursivenomad
 
 ---
 

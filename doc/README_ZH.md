@@ -2,7 +2,7 @@
     <img width="192px" height="192px" src="/doc/icon.svg" align="right" />
 </a>
 
-# Serial Studio
+# Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
 [![Github commits](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
 [![GitHub contributors](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
@@ -45,7 +45,7 @@ Serial Studio 是一个跨平台、功能多样的数据可视化工具，专为
 下载 AppImage 文件，并确保它具有正确的执行权限，然后运行：
 
 ```
-chmod +x SerialStudio-3.0.5-Linux-x86_64.AppImage
+chmod +x Serialibre-3.0.5-Linux-x86_64.AppImage
 ./SerialStudio-3.0.5-Linux-x86_64.AppImage
 ```
 
@@ -65,13 +65,13 @@ sudo apt install libfuse2
 对于基于 Debian 的发行版（例如 Debian、Ubuntu、Linux Mint 等）：
 
 ```
-sudo dpkg -i SerialStudio-3.0.5-Linux-x86_64.deb
+sudo dpkg -i Serialibre-3.0.5-Linux-x86_64.deb
 ```
 
 对于基于 RPM 的发行版（例如 Fedora、RHEL、OpenSUSE 等）：
 
 ```
-sudo rpm -i SerialStudio-3.0.5-Linux-x86_64.rpm
+sudo rpm -i Serialibre-3.0.5-Linux-x86_64.rpm
 ```
 
 ## 开发
