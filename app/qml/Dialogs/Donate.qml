@@ -32,7 +32,7 @@ Window {
   //
   // Window options
   //
-  title: qsTr("Donate")
+  title: qsTr("Support")
   width: minimumWidth
   height: minimumHeight
   minimumWidth: column.implicitWidth + 32
@@ -202,11 +202,12 @@ Window {
           }
 
           Label {
+            opacity: 0.8
             Layout.fillWidth: true
             Layout.maximumWidth: title.implicitWidth
             wrapMode: Label.WrapAtWordBoundaryOrAnywhere
-            text: qsTr("Serial Studio is free & open-source software supported by volunteers. " +
-                       "Consider donating to support development efforts :)")
+            text: qsTr("Serialibre is based on Serial Studio by Alex Spataru. " +
+                       "If you'd like to support Alex for the impressive foundation of work he's created, feel free to donate to him via the button below.")
           }
 
           Item {
@@ -214,11 +215,10 @@ Window {
           }
 
           Label {
-            opacity: 0.8
             Layout.fillWidth: true
             Layout.maximumWidth: title.implicitWidth
             wrapMode: Label.WrapAtWordBoundaryOrAnywhere
-            text: qsTr("You can also support this project by sharing it, reporting bugs and proposing new features!")
+            text: qsTr("You can support this project directly by submitting Pull Requests and checking out my other work :)")
           }
 
           Item {

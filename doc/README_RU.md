@@ -4,13 +4,6 @@
 
 # Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
-[![Github commits](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
-[![GitHub contributors](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/Serial-Studio/Serial-Studio/pull/new)
-[![Github All Releases](https://img.shields.io/github/downloads/Serial-Studio/Serial-Studio/total.svg?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/releases/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/serialstudio.app)
-[![Donate](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE)
-
 Serial Studio — это многоплатформенный и универсальный инструмент для визуализации данных, разработанный для инженеров встраиваемых систем, студентов, хакеров и преподавателей. Он позволяет пользователям визуализировать, анализировать и отображать данные своих проектов и устройств без необходимости разработки специализированного ПО для каждого проекта. Serial Studio предлагает гибкое решение, которое адаптируется к широкому спектру случаев использования, что делает его идеальным как для образовательных, так и для профессиональных сред.
 
 Этот инструмент был создан на основе моего опыта участия в нескольких соревнованиях CanSat, где мне часто приходилось разрабатывать новое ПО для наземной станции для каждого проекта. Со временем я понял, что было бы более эффективно и устойчиво поддерживать одну гибкую программу, которая позволяет пользователям определять, как обрабатывать и отображать входящие данные.
@@ -127,9 +120,3 @@ cmake --build . --config Release -j 10
 ## Лицензия
 
 Этот проект лицензирован под лицензией MIT. Для получения более подробной информации см. файл [LICENSE](/LICENSE.md).
-
-## Поддержка и пожертвования
-
-Если вы находите Serial Studio полезным, рассмотрите возможность поддержки его разработки с помощью [пожертвования через PayPal](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE).
-
-Или, если вы когда-нибудь окажетесь в [Канкуне, Мексика](https://ru.wikipedia.org/wiki/Канкун) и захотите пригласить меня на пиво лично, не стесняйтесь [отправить мне сообщение в Instagram](https://instagram.com/aspatru). Я буду рад познакомиться!

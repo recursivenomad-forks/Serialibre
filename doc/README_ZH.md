@@ -4,13 +4,6 @@
 
 # Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
-[![Github commits](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
-[![GitHub contributors](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/Serial-Studio/Serial-Studio/pull/new)
-[![Github All Releases](https://img.shields.io/github/downloads/Serial-Studio/Serial-Studio/total.svg?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/releases/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/serialstudio.app)
-[![Donate](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE)
-
 Serial Studio 是一个跨平台、功能多样的数据可视化工具，专为嵌入式系统工程师、学生、黑客和教师设计。它允许用户可视化、分析和展示他们项目和设备中的数据，而无需为每个项目开发特定的可视化软件。**Serial Studio** 提供了一种灵活的解决方案，适应各种使用场景，非常适合教育和专业环境。
 
 这个工具源于我在多个 CanSat 比赛中的经验，那时我经常需要为每个项目开发新的地面站软件。随着时间的推移，我意识到维护一个灵活的通用软件，让用户可以定义如何处理和显示传入的数据，会更加高效和可持续。
@@ -129,9 +122,3 @@ cmake --build . --config Release -j 10
 ## 许可证
 
 此项目根据 MIT 许可证授权。更多详细信息，请参阅 [LICENSE](/LICENSE.md) 文件。
-
-## 支持与捐赠
-
-如果你觉得 Serial Studio 有用，欢迎通过 [PayPal 捐赠](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE) 支持其开发。
-
-或者，如果你有机会来到 [墨西哥坎昆](https://zh.wikipedia.org/wiki/坎昆)，并想亲自请我喝一杯，随时可以通过 [Instagram 给我发消息](https://instagram.com/aspatru)。我很乐意认识你！

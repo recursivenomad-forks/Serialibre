@@ -4,13 +4,6 @@
     <img width="192px" height="192px" src="/doc/icon.svg" align="right" />
 </a>
 
-[![Dernier commit sur Github](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
-[![Contributeurs GitHub](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/Serial-Studio/Serial-Studio/pull/new)
-[![Github All Releases](https://img.shields.io/github/downloads/Serial-Studio/Serial-Studio/total.svg?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/releases/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/serialstudio.app)
-[![Faire un don](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE)
-
 Serial Studio est un outil de visualisation de données multiplateforme et polyvalent conçu pour les ingénieurs en électronique, les étudiants, les hackers et les enseignants. Il permet aux utilisateurs de visualiser, analyser et représenter les données de leurs projets et dispositifs sans avoir besoin d'un logiciel de visualisation spécifique au projet. Serial Studio offre une solution flexible qui s'adapte à une grande variété de cas d'utilisation, ce qui le rend idéal pour les environnements éducatifs et professionnels.
 
 L'outil est né de mon expérience dans plusieurs compétitions basées sur CanSat, où je me retrouvais souvent à développer un nouveau logiciel de station au sol pour chaque projet. Au fil du temps, j'ai réalisé qu'il serait plus efficace et durable de maintenir un seul logiciel de station au sol flexible, permettant aux utilisateurs de définir comment les données entrantes sont traitées et affichées.
@@ -128,9 +121,3 @@ Voici un schéma simplifié illustrant comment les différents modules de Serial
 ## Licence
 
 Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier [LICENSE](/LICENSE.md).
-
-## Support & Contribution
-
-Si vous trouvez Serial Studio utile, pensez à soutenir son développement en [contribuant via PayPal](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE).
-
-Sinon, si vous passez un jour à [Cancún, au Mexique](https://en.wikipedia.org/wiki/Cancun) et que vous souhaitez m'offrir un verre en personne, n'hésitez pas à [m'envoyer un message sur Instagram](https://instagram.com/aspatru). J'adorerais vous rencontrer !

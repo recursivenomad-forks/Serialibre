@@ -4,13 +4,6 @@
 
 # Serialibre - A minimally maintained permissive fork of [Serial Studio](https://github.com/Serial-Studio/Serial-Studio/)
 
-[![Github commits](https://img.shields.io/github/last-commit/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/commits/master)
-[![GitHub contributors](https://img.shields.io/github/contributors/Serial-Studio/Serial-Studio?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/graphs/contributors)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/Serial-Studio/Serial-Studio/pull/new)
-[![Github All Releases](https://img.shields.io/github/downloads/Serial-Studio/Serial-Studio/total.svg?style=for-the-badge&logo=github)](https://github.com/Serial-Studio/Serial-Studio/releases/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/serialstudio.app)
-[![Donate](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE)
-
 Serial Studio ist ein plattformübergreifendes und vielseitiges Datenvisualisierungstool, das für Ingenieure eingebetteter Systeme, Studenten, Hacker und Lehrer entwickelt wurde. Es ermöglicht Nutzern, die Daten ihrer Projekte und Geräte zu visualisieren, zu analysieren und darzustellen, ohne für jedes Projekt eine spezifische Visualisierungssoftware entwickeln zu müssen. Serial Studio bietet eine flexible Lösung, die sich an eine Vielzahl von Anwendungsfällen anpasst und sowohl für Bildungs- als auch für professionelle Umgebungen ideal ist.
 
 Das Tool entstand aus meinen Erfahrungen bei mehreren CanSat-Wettbewerben, bei denen ich oft neue Bodenstationssoftware für jedes Projekt entwickeln musste. Mit der Zeit stellte ich fest, dass es effizienter und nachhaltiger wäre, ein einziges, flexibles Programm zu pflegen, das es Nutzern ermöglicht, zu definieren, wie eingehende Daten verarbeitet und angezeigt werden.
@@ -127,9 +120,3 @@ Im Folgenden siehst du ein vereinfachtes Diagramm, das zeigt, wie die verschiede
 ## Lizenz
 
 Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Details findest du in der Datei [LICENSE](/LICENSE.md).
-
-## Unterstützung und Spenden
-
-Wenn du Serial Studio nützlich findest, erwäge bitte, die Entwicklung durch eine [Spende via PayPal](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE) zu unterstützen.
-
-Alternativ, wenn du jemals in [Cancún, Mexiko](https://de.wikipedia.org/wiki/Canc%C3%BAn) bist und mich auf ein Bier persönlich einladen möchtest, zögere nicht, mir [eine Nachricht auf Instagram zu senden](https://instagram.com/aspatru). Ich würde mich freuen, dich kennenzulernen!

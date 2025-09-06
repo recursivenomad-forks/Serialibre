@@ -359,13 +359,13 @@
     </message>
     <message>
         <location filename="../../qml/Dialogs/Donate.qml" line="208"/>
-        <source>Serial Studio is free &amp; open-source software supported by volunteers. Consider donating to support development efforts :)</source>
-        <translation>Serial Studio est un logiciel gratuit et open-source soutenu par des bénévoles. Pensez à faire un don pour soutenir les efforts de développement :)</translation>
+        <source>Serial Studio: Consider donating to support development efforts.</source>
+        <translation>Serial Studio: Pensez à faire un don pour soutenir les efforts de développement.</translation>
     </message>
     <message>
         <location filename="../../qml/Dialogs/Donate.qml" line="221"/>
-        <source>You can also support this project by sharing it, reporting bugs and proposing new features!</source>
-        <translation>Vous pouvez également soutenir ce projet en le partageant, en signalant des bugs et en proposant de nouvelles fonctionnalités !</translation>
+        <source>You can also support this project by sharing it, reporting bugs and proposing new features :)</source>
+        <translation>Vous pouvez également soutenir ce projet en le partageant, en signalant des bugs et en proposant de nouvelles fonctionnalités :)</translation>
     </message>
     <message>
         <source>Don&apos;t annoy me again!</source>

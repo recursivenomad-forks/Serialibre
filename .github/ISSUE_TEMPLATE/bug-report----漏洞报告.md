@@ -49,14 +49,6 @@ void loop() {
 }
 ```
 
-### **4. Important Notes**
-
-- Non-critical bugs will be treated with **lower priority than critical bugs**.  
-- Donations are always welcome to help keep the project alive and ensure a timely response. You can support the project here: [Donate Now](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE).  
-- **I am an open-source developer.** I provide this software as-is and cannot be responsible for long-term maintenance or personalized service. The source code is available freely, and if the issue is urgent, you’re encouraged to fix it yourself or hire someone (including myself) to do so.  
-
-Thank you for understanding and for helping improve the software!
-
 ---
 
 ### **对于中国用户 / For Chinese users, please delete this part if you speak English**
@@ -98,11 +90,3 @@ void loop() {
     delay(50);
 }
 ```
-
-### **5. 注意事项**
-
-- **非关键性问题的优先级将低于关键性问题。**  
-- 欢迎通过[捐赠链接](https://www.paypal.com/donate?hosted_button_id=XN68J47QJKYDE)支持该项目，以帮助项目持续开发并确保及时响应。  
-- **我是一个开源开发者。** 我提供此软件是“按原样”的，我无法负责长期维护或个性化服务。源代码是免费提供的，如果问题很紧急，建议您自己修复或雇佣他人（包括我）进行修复。  
-
-感谢您的理解并帮助改进此软件！
