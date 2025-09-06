@@ -12,15 +12,16 @@ on:
 #-------------------------------------------------------------------------------
 
 env:
-  VERSION: "3.0.6"
+  VERSION: "3.0.7"
   QT_VERSION_LINUX: 6.8.1
   QT_VERSION_MACOS: 6.8.1
   QT_VERSION_WINDOWS: 6.8.1
+  REPOSITORY_NAME: "Serialibre"
   EXECUTABLE: "Serial-Studio"
   APPLICATION: "Serial Studio"
   UNIXNAME: "serial-studio"
   QML_DIR: "../../app/qml"
-  PUBLISHER: "Alex Spataru"
+  PUBLISHER: "Peter S. Hollander"
   DESCRIPTION: "Multi-purpose serial data visualization & processing program"
   QT_MODULES: qt3d qtgraphs qtquick3d qtlocation qtdatavis3d qtserialport qtshadertools qtpositioning qtconnectivity
     
@@ -100,8 +101,8 @@ jobs:
         chmod +x linuxdeploy-plugin-qt-x86_64.AppImage
         
         export QML_SOURCES_PATHS="${{env.QML_DIR}}"
-        export QMAKE=/home/runner/work/${{env.EXECUTABLE}}/Qt/${{env.QT_VERSION_LINUX}}/gcc_64/bin/qmake
-        export PATH=/home/runner/work/${{env.EXECUTABLE}}/Qt/${{env.QT_VERSION_LINUX}}/gcc_64/libexec:$PATH
+        export QMAKE=/home/runner/work/${{env.REPOSITORY_NAME}}/Qt/${{env.QT_VERSION_LINUX}}/gcc_64/bin/qmake
+        export PATH=/home/runner/work/${{env.REPOSITORY_NAME}}/Qt/${{env.QT_VERSION_LINUX}}/gcc_64/libexec:$PATH
         
         ./linuxdeploy-x86_64.AppImage --appdir AppDir -e ${{env.UNIXNAME}} -i ../../app/deploy/linux/${{env.UNIXNAME}}.png -d ../../app/deploy/linux/${{env.UNIXNAME}}.desktop --plugin qt --output appimage
         
